@@ -63,7 +63,8 @@
     "verify:guide-export": "node scripts/verify-guide-export.js",
     "verify:guide-export-regression": "node --test scripts/verify-guide-export.test.js",
     "sync:w3-faq": "python3 scripts/sync-w3-faq.py",
-    "verify:contact": "node scripts/verify-contact-page.js"
+    "verify:contact": "node scripts/verify-contact-page.js",
+    "verify:learning-center": "node scripts/verify-learning-center.js"
   },
   "dependencies": {
     "@heroui/react": "^2.8.9",
